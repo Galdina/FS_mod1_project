@@ -1,6 +1,6 @@
 # Pay the Witcher in minted coin!
 
-![](images/witcher.jpg)
+![](images/Witcher.jpg)
 
 It is crucial to ask the right questions and understand the problem, prior to beginning data analysis. Better start with two simple questions: 
 1. Who is the audience that will use the results from the analysis? Usually it can be board members, sales people, customers, employees, etc. 
