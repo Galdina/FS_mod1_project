@@ -1,0 +1,4 @@
+*.sqlite
+data/*.csv
+data/*.gz
+data/*.json
