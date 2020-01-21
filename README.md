@@ -52,14 +52,16 @@ All my work how I clean and check my dataset, I push into **Studing and clearing
 
 ## Part 2. Questions research.
 <details><summary><span style="font-size:18pt; font-weight:bold"> Our data set contains plentiful information, in the project I decided to focus on finding properties are associated with successful movies. </span><br></summary>
-</details>
+
 
 What defines popular cinema primarily? It is first of all popularity and profit. So, we have a questions:
 1. Popularity over years 
 2. The distribution of profit in different popularity levels 
 3. The distribution of profit in different score rating levels
+</details> 
 
 ## Part 3. Coding
+
 **Popularity**
 First I explored the movie popularity trend over years, from 1930 to 2020. 
 How you can see I computed the mean of popularity in each year, and then plotted line chart to show the trend. Since the popularity has no upper bound, in case the mean of popularity was affected by the higher rating, I also computed the median for analyzing this question.
