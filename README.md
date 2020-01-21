@@ -22,7 +22,7 @@ In this project, I was given multiple datasets from:
 * Rotten Tomatoes
 * TheMovieDB.org
   
-_Files for project: 
+_Note: Files for project: 
  * ./data/tmdb.movies.csv
  * ./data/imdb.title.crew.csv
  * ./data/tn.movie_budgets.csv
@@ -33,7 +33,10 @@ _Files for project:
  * ./data/bom.movie_gross.csv
  * ./data/imdb.title.basics.csv
  * ./data/rt.reviews.tsv
- * ./data/rt.movie_info.tsv_
+ * ./data/rt.movie_info.tsv
+ _
+
+How I converted this files for work, I pushed into **Reading information.ipynb**.
  
 All website from a list contain serves as an online databases of world cinema. This websites contains a large number of public data on films such as the title of the film, the year of release of the film, the genre of the film, the audience, the rating of critics, the duration of the film, the summary of the film, actors, directors and much more.
   
@@ -44,11 +47,29 @@ Go to the next step for I have been thinking of several solutions to fix this da
 2. Fill empty fields with specific values
 3. Fill empty fields with calculations (if it posible)
 
-All my work how I clean and check my dataset I push into ***Reading information.ipynb*
+All my work how I clean and check my dataset, I push into **Studing and clearing.ipynb**.
 </details>
 
-## Part 2.
-## Part 3.
-## For Future.
+## Part 2. Questions research.
+<details><summary><span style="font-size:18pt; font-weight:bold"> Our data set contains plentiful information, in the project I decided to focus on finding properties are associated with successful movies. </span><br></summary>
+</details>
 
-All that remains in Module 1 is to put our newfound data science skills to use with a final project! 
+What defines popular cinema primarily? It is first of all popularity and profit. So, we have a questions:
+1. Popularity over years 
+2. The distribution of profit in different popularity levels 
+3. The distribution of profit in different score rating levels
+
+## Part 3. Coding
+**Popularity**
+First I explored the movie popularity trend over years, from 1930 to 2020. 
+How you can see I computed the mean of popularity in each year, and then plotted line chart to show the trend. Since the popularity has no upper bound, in case the mean of popularity was affected by the higher rating, I also computed the median for analyzing this question.
+We can see that the trend of popularity mean is upward year to year, but it also mean - information about new films goes faster on the Internet and is easier to evaluate by active users. We need more research.
+** **
+## Final Thoughts
+
+## For Future.
+Few remarks for me for the future:
+* Update all information using API or/and WebScraping (all sites have a good API and good custom serviсe).
+* Use SQLite database for full service of data set.
+
+
