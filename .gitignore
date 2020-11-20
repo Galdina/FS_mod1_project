@@ -3,3 +3,4 @@ data/*.csv
 data/*.gz
 data/*.json
 .ipynb_checkpoints/*.ipynb
+jp_files/*.ipynb
