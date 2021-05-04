@@ -31,7 +31,8 @@ All website from a list contain serves as an online databases of world cinema. T
   
 </details>  
 <details><summary><span style="font-size:18pt; font-weight:bold"><b>Studing and clearing.ipynb</b></span><br></summary>
-Faced with the large amount of data available on this dataset, I realize that I can't clearly connected this information from different sources. [Here](https://developers.themoviedb.org/3/genres) I read all information from the files and add decryption to the fields using APIs. For my work I used sqlite3, pandas and glob libraries. After I convert dataset to convenient storage, I can continue to work with.
+Faced with the large amount of data available on this dataset, I realize that I can't clearly connected this information from different sources.
+[Here](https://developers.themoviedb.org/3/genres) I read all information from the files and add decryption to the fields using APIs. For my work I used sqlite3, pandas and glob libraries. After I convert dataset to convenient storage, I can continue to work with.
   
 Go to the next step for I have been thinking of several solutions to fix this dataset problem with missing values as follows:
 1. Delete the line with the missing values
